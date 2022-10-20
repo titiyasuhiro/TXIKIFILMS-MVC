@@ -1,0 +1,13 @@
+{
+    "name": "admin/txikifilms",
+    "autoload": {
+        "psr-4": {
+            "Admin\\Txikifilms\\": "src/"
+        }
+    },
+    "require": {
+        "filp/whoops": "^2.14",
+        "twbs/bootstrap": "5.2.2",
+        "nesbot/carbon": "^2.62"
+    }
+}
