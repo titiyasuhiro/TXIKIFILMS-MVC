@@ -1,0 +1,25 @@
+.film-carousel {
+    font-family : Poppins, sans-serif !important;
+    font-size : 12px !important;
+}
+.film-carousel-layout {
+    margin : auto;
+    vertical-align : middle;
+    position : relative;
+    z-index : 1;
+}
+video {
+    position : absolute;
+    /* margin : auto; */
+    margin-left : -15%;
+    margin-top : -28%;
+    vertical-align : middle;
+    z-index : 2;
+}
+.btn-secondary {
+    width : auto !important;
+    height : auto !important;
+    background-color : rgb(216, 211, 211) !important;
+    color : black !important;
+    font-size : 12px !important;
+}
