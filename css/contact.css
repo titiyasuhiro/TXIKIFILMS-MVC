@@ -1,0 +1,56 @@
+/* DEBUT FORMULAIRE */
+#content {
+    width: 80%;
+    margin: auto;
+ }
+ .form {
+    display: flex;
+    justify-content: space-evenly;
+ }
+ .champ {
+    display: flex;
+    flex-direction: column;
+    margin: 5px auto;
+    text-align: center;
+ }
+ .titre-form{
+    color: white;
+    font-style: bold;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+ }
+ .champ label {
+     color: white;
+     font-style: bold;
+     font-size: 16px;
+     font-family: 'Montserrat', sans-serif;
+ }
+ .champ input {
+     width: 365px;
+ }
+ .champ textarea {
+    width: 75%;
+    margin: auto;
+}
+ .btn-contact {
+    text-align: center;
+    margin: 25px;
+ }
+ .btn-form-contact{
+    text-decoration: none;
+    color: white;
+    font-style: bold;
+    background-color: transparent;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    padding: 10px;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+.btn-form-contact:hover{
+    text-decoration: none;
+    background-color: white;
+    color: dimgrey;
+}
+/* FIN FORMULAIRE */
